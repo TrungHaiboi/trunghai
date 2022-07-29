@@ -1,0 +1,582 @@
+.body {
+    font-family:  'Montserrat';
+}
+img {
+   width: 100%;
+}
+.header {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3; */
+    background: #21243d;
+}
+.header .logo img {
+    padding: 3px 0 ;
+}
+a.nav-link {
+    font-size: 18px;
+}
+ul.navbar-nav.mr-auto {
+    padding: 0 40px;
+}
+.header .navbar-light .navbar-nav .nav-link,
+.header .navbar-light .navbar-nav .active>.nav-link  {
+    color: white ;
+}
+i.fa.fa-search {
+    color: white;
+}
+/* banner */
+.banner {
+    position: relative;
+    color: white;
+}
+.banner__content {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.banner-title h1 {
+    font-size: 95px;
+    font-weight: bold;
+}
+.banner__content .banner-document {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.banner-title {
+    margin-bottom: 40px;
+}
+.banner-link {
+    border: 1px solid;
+    width: 20%;
+    border-radius: 28px;
+    background: #21243d;
+}
+.banner-link a {
+    padding: 47px;
+}
+button.btn.btn-primary {
+    border-radius: 20px;
+    padding: 6px 57px;
+    text-transform: uppercase;
+    background: #21243d;
+    font-weight: bold;
+}
+.banner .banner-document p {
+    font-family: fangsong;
+} 
+/* kt banner */
+.section--our-team {
+    background-color: #21243d;
+    background-image:url('../images/Design.png');
+    color: white;
+}
+/*  */
+.title-section h2 {
+    text-align: center;
+    padding: 40px 0 0 0  ;
+    font-size: 40px ;
+   font-weight: 700;
+}
+.sub-title {
+    text-align: center;
+    font-family: Regular;
+    font-size: 19px;
+}
+.section--our-team .title-section .sub-title p {
+    padding: 10px 30%;
+}
+.feature img  {
+    border-radius: 93%;
+    margin-bottom: 20px;
+}
+.image-box .content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content h2 {
+    margin-bottom: 15px;
+}
+.content p {
+    margin-bottom: 20px;
+}
+.title-section {
+    margin-bottom: 45px;
+}
+/*  */
+.box-dish {
+    background: #ffd17e;
+    background-image: url("../images/Design2.png");
+}
+.images img {
+    border-radius: 50%;
+    max-width: 84%;
+    margin: 115px 0;
+} 
+.box__discount {
+    margin-bottom: 40px;
+}
+.box__content {
+    width: 72%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.box__content  p {
+    text-align: center;
+}
+.box__discount h2 {
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 75px;
+}
+.box__document p {
+    margin-bottom: 30px;
+}
+.box--border {
+    border: 3px solid;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50%;
+}
+.col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__stort p {
+    font-size: 22px;
+}
+/*  */
+/* phần 5 */
+/* .box__width .images_2 img {
+    border-radius: 50%;
+    max-width: 84%;
+    margin: 115px 0;
+    background-image: url("../images/rice2.jpg");
+
+}   */
+/*  */
+/* phần 6  */
+.box--food {
+    position: relative;
+    background-image: url('../images/food.jpg');
+    padding: 80px 0 80px;
+}
+.box__information {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+.information__name p {
+    margin-bottom: 0px;
+}
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.information img {
+   max-width: 20%;
+    border-radius: 50%;
+}
+.box_bg {
+    position: absolute;
+    background:rgba(33, 36, 61, 0.6);
+    inset: 0;
+    /* opacity: 0.6;  */
+}
+.information__documnet {
+    font-size: 23px;
+    max-width: 50%;
+    margin: auto;
+}
+.information__name {
+    font-weight: bold;
+    font-size: 25px;
+}
+/* lệnh mới */
+/* .box__images {
+    filter: contrast(0.5);
+} */
+/*  */
+/* phần 7 */
+.box--overlay {
+    background-color: #ffd17e;
+    background-image: url("../images/Design5.png");
+    padding: 10%;
+}
+.title__overlay  {
+    text-align: center;
+}
+.title__overlay .title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.title__overlay .sub__title {
+    margin: auto;
+}
+ .form {
+     margin: 0 134px;
+     position: relative;
+ }
+ .your-Email {
+     border: 1px solid white ;
+     height: 44px;
+     border-radius: 30px;
+     width: 35%;
+     text-align: center;
+     background-color: white;
+ }
+ input.form-control {
+     border-radius: 30px;
+     margin: auto;
+     width: 50%;
+ }
+ .subscribe {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(31%,-50%);
+     background-color: #21243d;
+     border-radius: 30px;
+ }
+ .subscribe a {
+     padding: 6px 30px;
+     display: flex;
+     justify-content: center;
+     text-decoration:  none;
+     color: white;
+ }
+ .subscribe:hover {
+     background-color: rgb(0, 214, 214);
+     transition: 0.9s;
+ }
+ .subscribe a:hover {
+     text-decoration: none;
+ }
+
+/* kt7 */
+/* foodter */
+.footer {
+    background-color: #111111;
+    color: white;
+}
+.footer--wrap ul  {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.footer--wrap ul li {
+    margin: 5px;
+    border: 1px solid #fff;
+    width: 28px;
+    transition: 0.8s;
+    border-radius: 40px;
+    background: beige;
+    text-align: center;
+}
+.fa .fa-whatsapp {
+    color: white;
+}
+.footer--wrap ul li:hover {
+    background-color: rgb(87, 201, 253);
+}
+.footer-wrap {
+    color: white;
+    margin-top: 40%;
+}
+.footer--wrap {
+    font-size: 17px;
+    margin-top: 40%;
+}
+
+.widget-content {
+    color: white;
+    padding: 0;
+}
+.widget-content li {
+    list-style: none;
+}
+.widget-content li a {
+    text-decoration: none;
+    color: white;
+}
+/* foo */
+
+/*  */
+@media screen  and (max-width: 1262px){
+    .banner-title h1 {
+        font-size: 60px;
+    }
+    .banner__content .banner-document {
+        font-size: 20px;
+    }
+    /*  */
+    .title-section h2 {
+        font-size: 30px;
+    }
+    .sub-title {
+        font-size: 17px;
+    }
+    .box__discount h2 {
+        font-size: 45px;
+    }
+    .box__discount {
+        margin: 20px;
+    }
+    .box__discount h2 {
+        margin: auto;
+    }
+    .images img {
+        margin: 20px 0;
+    }
+    .information__documnet {
+        font-size: 19px;
+    }
+    .information__name {
+        font-size: 20px;
+    }
+
+}
+@media screen  and (max-width: 970px){
+    .banner__content .banner-document {
+        font-size: 16px;
+    }
+    button.btn.btn-primary {
+        font-size: 52%;
+    
+    }
+    
+    .title-section h2 {
+        font-size: 25px;
+    }
+    .sub-title {
+        font-size: 15px;
+    }
+    .content h2 {
+        font-size: 25px;
+    }
+    .content p {
+        font-size: 15px;
+    }
+    .box__content p {
+        font-size: 17px;
+    }
+    .box__content {
+        text-align: center;
+    }
+    .images {
+        text-align: center;
+        max-width: 70%;
+    } 
+    .box__discount h2 {
+      font-size: 22px;
+    }
+    button.btn.btn-primary {
+        margin-bottom: 20px;
+    }
+    .feature img {
+        width: 60%;
+    }
+    .feature {
+        text-align: center;
+    }
+    .box--border {
+        margin-bottom: 6%;
+    }
+    .section--our-team .title-section .sub-title p {
+        padding: 0px 30%;
+    }
+    .box--border p{
+        font-size: 22px;
+    }
+    .box__stort p   {
+        font-size: 17px;
+    }
+    .information__documnet {
+        font-size: 15px;
+    }
+    .title__overlay .title {
+        font-size: 30px;
+    }
+    .footer { 
+        text-align: center;
+    }
+    .footer--wrap ul { 
+        justify-content: center;
+    }
+    .footer--wrap {
+        margin-top: 8%;
+    }
+    .footer--wrap p {
+        font-size: 12px;
+    }
+    .footer-wrap {
+        margin-top: 4%;
+    }
+    .widget-content {
+        font-size: 12px;
+    }
+    .subscribe {
+        display: block;
+        left: 53%;
+    }
+    input.form-control {
+        font-size: 14px;
+    }
+    .subscribe a { 
+        font-size: 14px;
+    }
+    i.fa.fa-search {
+       display: none;
+    }
+    button.navbar-toggler {
+        position: absolute;
+        right: 20px;
+        top: 6px;
+    }
+    div#navbarSupportedContent {
+        position: fixed;
+        left: 0;
+        width: 100%;
+        top: 6%;
+        z-index: 1;
+       background: #242741;        ;
+        opacity: 0.8;
+    }
+    ul.navbar-nav.mr-auto {
+    padding: 0 ;
+    }
+    .header {
+        padding: 18px 0;
+    }
+    a.nav-link {
+        border-bottom: 1px solid rgb(88, 88, 88);
+    }
+ 
+}
+@media screen and (max-width:670px){
+    .banner-title {
+        margin-bottom: 10px;
+    }
+    .banner-title h1 {
+        font-size: 40px;
+    }
+
+    .banner__content .banner-document {
+        font-size: 14px;
+    }
+    .banner__content .banner-document {
+       margin: auto;
+    }
+    .title-section h2 {
+        font-size: 20px;
+    }
+    .sub-title {
+        font-size: 10px;
+    }
+    .content h2 {
+        font-size: 23px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .box__content p {
+        font-size: 10px;
+    }
+    .information__documnet {
+        font-size: 10px;
+    }
+    .information__name {
+        font-size: 15px;
+    }
+    .title__overlay .title {
+        font-size: 25px;
+    }
+    .title__overlay .sub__title {
+        font-size: 13px;
+    }
+    .subscribe {
+        display: block;
+        left: 40%;
+    }
+    input.form-control {
+        width: auto;
+        font-size: 12px;
+    }
+    .form {
+        margin: auto;
+    }
+    .subscribe a { 
+        font-size: 12px;
+    }
+    div#navbarSupportedContent {
+        top: 8%;;
+    }
+    a.nav-link {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:490px){
+    .banner-title h1 {
+        font-size: 30px;
+    }
+
+    .banner__content .banner-document {
+        font-size: 12px;
+    }
+    button.btn.btn-primary {
+     padding: 10px;
+    
+    }
+    .box--border {
+        width: 159px;
+        height: 153px;
+}
+    
+}
+
+@media screen and (max-width:460x){
+    button.btn.btn-primary {
+     padding: 0;
+    
+    }
+    
+    
+}
+@media screen and (max-width:375px){
+    div#navbarSupportedContent {
+        top: 10%;
+    }
+}
+
+
+
+

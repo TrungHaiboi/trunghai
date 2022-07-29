@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato-Black.ttf) format('ttf'),
+        url(fonts/Lato-BlackItalic.ttf) format('ttf'),
+        url(fonts/Lato-Bold.ttf) format('ttf'),
+        url(fonts/Lato-BoldItalic.ttf) format('ttf'),
+        url(fonts/Lato-Italic.ttf) format('ttf'),
+        url(fonts/Lato-Light.ttf) format('ttf'),
+        url(fonts/Lato-LightItalic.ttf) format('ttf'),
+        url(fonts/Lato-Regular.ttf) format('ttf'),
+        url(fonts/Lato-Thin.ttf) format('ttf'),
+        url(fonts/Lato-ThinItalic.ttf) format('ttf');
+
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-Black.ttf) format('ttf'),
+        url(fonts/Montserrat-BlackItalic.ttf) format('ttf'),
+        url(fonts/Montserrat-Bold.ttf) format('ttf'),
+        url(fonts/Montserrat-BoldItalic.ttf) format('ttf'),
+        url(fonts/Montserrat-ExtraBold.ttf) format('ttf'),
+        url(fonts/Montserrat-ExtraLightItalic.ttf) format('ttf'),
+        url(fonts/Montserrat-Italic.ttf) format('ttf'),
+        url(fonts/Montserrat-Light.ttf) format('ttf'),
+        url(fonts/Montserrat-LightItalic.ttf) format('ttf'),
+        url(fonts/Montserrat-Medium.ttf) format('ttf'),
+        url(fonts/Montserrat-MediumItalic.ttf) format('ttf'),
+        url(fonts/Montserrat-Regular.ttf) format('ttf'),
+        url(fonts/Montserrat-SemiBold.ttf) format('ttf'),
+        url(fonts/Montserrat-SemiBoldItalic.ttf) format('ttf'),
+        url(fonts/Montserrat-Thin.ttf) format('ttf'),
+        url(fonts/Montserrat-ThinItalic.ttf) format('ttf');
+        
+    font-style: normal;
+  }
